@@ -1,0 +1,6 @@
+{
+  "extends": ["node-important-stuff"],
+  "rules": {
+    "node/no-unpublished-import": "off"
+  }
+}

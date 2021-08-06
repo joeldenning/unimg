@@ -1,0 +1,43 @@
+{
+  "name": "unimg",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "lint": "eslint src",
+    "format": "prettier --write .",
+    "check-format": "prettier --check .",
+    "prepare": "husky install"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeldenning/unimg.git"
+  },
+  "author": "Joel Denning",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joeldenning/unimg/issues"
+  },
+  "homepage": "https://github.com/joeldenning/unimg#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-node-important-stuff": "^1.1.0",
+    "express-promise-router": "^4.1.0",
+    "husky": "^7.0.0",
+    "mkdirp": "^1.0.4",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.3.2",
+    "pretty-quick": "^3.1.1",
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "crypto-js": "^4.1.1",
+    "express": "^4.17.1"
+  }
+}
