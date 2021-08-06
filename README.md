@@ -1,5 +1,7 @@
 # unimg
 
+First, [install pnpm](https://pnpm.io/installation)
+
 Start the server:
 
 ```sh
